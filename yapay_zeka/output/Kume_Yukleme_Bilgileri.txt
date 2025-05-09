@@ -1,0 +1,24 @@
+Kume 1:
+  Tibbi Malzeme Ihtiyac: 67 birim
+  Gerekli Drone Yukleri (Tibbi): [30, 30, 7]
+  Yiyecek Ihtiyac: 105 birim
+  Gerekli Drone Yukleri (Yiyecek): [30, 30, 30, 15]
+
+Kume 2:
+  Tibbi Malzeme Ihtiyac: 168 birim
+  Gerekli Drone Yukleri (Tibbi): [30, 30, 30, 30, 30, 18]
+  Yiyecek Ihtiyac: 144 birim
+  Gerekli Drone Yukleri (Yiyecek): [30, 30, 30, 30, 24]
+
+Kume 3:
+  Tibbi Malzeme Ihtiyac: 112 birim
+  Gerekli Drone Yukleri (Tibbi): [30, 30, 30, 22]
+  Yiyecek Ihtiyac: 126 birim
+  Gerekli Drone Yukleri (Yiyecek): [30, 30, 30, 30, 6]
+
+Kume 4:
+  Tibbi Malzeme Ihtiyac: 101 birim
+  Gerekli Drone Yukleri (Tibbi): [30, 30, 30, 11]
+  Yiyecek Ihtiyac: 98 birim
+  Gerekli Drone Yukleri (Yiyecek): [30, 30, 30, 8]
+
