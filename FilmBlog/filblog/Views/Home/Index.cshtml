@@ -1,0 +1,14 @@
+﻿@model List<filblog.Models.Blog>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <section id="blogSection">
+        @foreach(var item in Model){
+        <article>
+                <a href="/Home/Detail/@item.Id"><img src="@Url.Content(item.Thumbnail)"></a>
+        </article>
+        }
+    </section>
+
+    

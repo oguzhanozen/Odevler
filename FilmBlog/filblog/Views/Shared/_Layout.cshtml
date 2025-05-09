@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmBlog</title>
+    <link href="~/filmblog.templete/css/all.css" rel="stylesheet" />
+    <link href="~/filmblog.templete/css/nav.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <nav>
+        <h1>FilmBlog</h1>
+        <a href="/Home/Index" class="left-button"><img src="~/filmblog.templete/img/logolar/clapperboard.png" alt="Ana Sayfa"></a>
+        <a href="/Login/Register" class="right-button">Kayıt <br> Ol</a>
+        <a href="/Login/Index" class="right-button">Giriş <br> Yap</a>
+    </nav>
+    @RenderBody()
+    <footer>
+        <p>&copy; 2023 FilmBlog</p>
+    </footer>
+
+    <script src="~/filmblog.templete/js/script.js" type="text/JavaScript"></script>
+</body>
+</html>
+    

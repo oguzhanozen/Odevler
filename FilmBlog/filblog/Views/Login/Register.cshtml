@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <header>
+        <h1>Kayıt Ol</h1>
+    </header>
+
+    <form id="kayit" method ="post" onsubmit="return validateForm()">
+    <label for="Name">Kullanıcı Adı:</label>
+    <input type="text" id="Name" name="Name" placeholder="Kullanıcı adınızı girin" required>
+        <br><br>
+
+    <label for="Email">E-posta Adresi:</label>
+    <input type="email" id="Email" name="Email" placeholder="E-posta adresinizi girin" required>
+        <br><br>
+
+    <label for="Password">Şifre (Minimum 6 Karakter):</label>
+    <input type="Password" id="password" name="Password" placeholder="Şifrenizi girin" required>
+        <br><br>
+        <button type="button" onclick="togglePasswordVisibility()">Şifreyi Görünür Yap</button>
+
+        <div class="error-message" id="passwordError"></div>
+
+        <button type="submit">Kayıt Ol</button>
+
+        <p class="login-link"><b>Eğer bir hesabınız varsa:</b><a href="/Login/Index" class="login-button">Giriş Yap</a></p>
+    </form>

@@ -1,0 +1,17 @@
+﻿@{
+    Layout= null;
+}
+<div>
+    <form id="commentForm">
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="comment">Yorumunuz:</label>
+        <textarea id="comment" name="comment" rows="4" required></textarea>
+
+        <br><br><button type="button" onclick="addComment()">Yorum Ekle</button>
+    </form>
+
+    <ul id="commentList"></ul>
+</div>
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forrest Gump</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/filmsayfalari.css">
+</head>
+<body>
+  
+<section id="mainPart">
+  <div class="storyLine">
+    <h1>Forrest Gump</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Repellat dolorem dolore nesciunt, quibusdam fugiat reprehenderit ad odio officiis reiciendis aut, aliquam dignissimos doloremque ullam odit dicta facere amet obcaecati excepturi recusandae ab! 
+    Nihil, iste? Non quae commodi maiores illo enim! Sapiente eos sit sequi accusantium esse dolores dicta, illo quas!
+  </div>
+<br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/filmhakkında/forrest1.jpg">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/filmhakkında/forrest2.jpg">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/filmhakkında/forrest3.jpg">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<div>
+  <form id="commentForm">
+    <label for="name">Adınız:</label>
+    <input type="text" id="name" name="name" required>
+<br><br>
+    <label for="comment">Yorumunuz:</label>
+    <textarea id="comment" name="comment" rows="4" required></textarea>
+
+    <br><br><button type="button" onclick="addComment()">Yorum Ekle</button>
+</form>
+
+<ul id="commentList"></ul>
+</div>
+</section>
+<br><br><br><br><br>
+<section class="sidebar">
+ <!-- Sağ taraftaki alan -->
+ <div>
+
+  <a href="esaretinBedeli.html">
+      <div>
+          <img src="img/filmfotolar/EsaretinBedeliSide.jpg" title="Esaretin Bedeli (1994)" alt="Esaretin Bedeli (1994)">
+      </div>
+  </a>
+
+  <a href="dovusKulubu.html">
+      <div>
+          <img src="img/filmfotolar/FightClubSide.jpg" title="Dövüş Kulübü (1999)" alt="Dövüş Kulübü (1999)">
+      </div>
+  </a>
+
+  <a href="karaSovalye.html">
+      <div>
+          <img src="img/filmfotolar/KaraSövalyeSide.jpg" title="Kara Şövalye (2008)" alt="Kara Şövalye (2008)">
+      </div>
+  </a>
+
+  <a href="barbie.html">
+      <div>
+          <img src="img/filmfotolar/BarbieSide.jpg" title="Barbie (2023)" alt="Barbie (2023)">
+      </div>
+  </a>
+
+  <a href="orumcekAdam.html">
+      <div>
+          <img src="img/filmfotolar/ÖrümcekAdamSide.jpg" title="Örümcek Adam_ Eve Dönüş Yok (2021)" alt="Örümcek Adam_ Eve Dönüş Yok (2021)">
+      </div>
+  </a>
+</div>
+</section>
+
+
+
+
+<script src="js/script.js" type="text/JavaScript"></script>
+
+</body>
+</html> 

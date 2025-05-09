@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+    <link href="~/filmblog.templete/css/all.css" rel="stylesheet" />
+    <link href="~/filmblog.templete/css/nav.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Giriş Yap</h1>
+    </header>
+
+    <form id="giris" method="post" onsubmit="return validateForm()">
+        <label for="Name">Kullanıcı Adı:</label>
+        <input type="text" id="Name" name="Name" placeholder="Kullanıcı adınızı girin" required>
+        <br><br>
+        <label for="Password">Şifre:</label>
+        <input type="Password" id="Password" name="Password" placeholder="Şifrenizi girin" required>
+        <br><br>
+        <button type="button" onclick="togglePasswordVisibility()">Şifreyi Görünür Yap</button>
+
+        <div class="error-message" id="loginError"></div>
+
+        <button type="submit">Giriş Yap</button>
+
+        <p class="register-link"><a href="/Login/Register">Hesabınız yok mu? Hemen kayıt olun!</a></p>
+    </form>
+
+
+    <script src="js/script.js" type="text/JavaScript"></script>
+
+</body>
+</html>
+
+
